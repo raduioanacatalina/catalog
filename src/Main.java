@@ -23,7 +23,9 @@ public class Main {
         serviceStudent.save(student);
         serviceStudent.save(student2);
 
-        Student studentModificat = new Student(232, "Mihail", "Mihail", "mihail@yahoo.com");
+
+
+        Student studentModificat = new Student(2, "Mihail", "Mihail", "mihail@yahoo.com");
         serviceStudent.update(studentModificat);
 
         List<Student> studenti = serviceStudent.findAll();
